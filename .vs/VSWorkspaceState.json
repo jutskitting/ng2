@@ -1,0 +1,22 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\Components",
+    "\\src\\app\\Components\\Bodies",
+    "\\src\\app\\Components\\BodiesList",
+    "\\src\\app\\Components\\Bodies\\body1",
+    "\\src\\app\\Components\\Bodies\\body2",
+    "\\src\\app\\Components\\Bodies\\body3",
+    "\\src\\app\\Components\\Bodies\\body4",
+    "\\src\\app\\Pages",
+    "\\src\\app\\Pages\\contact",
+    "\\src\\app\\Themes",
+    "\\src\\app\\ThemesList",
+    "\\src\\app\\Themes\\theme1",
+    "\\src\\app\\Themes\\theme2"
+  ],
+  "SelectedNode": "\\src\\app\\Components\\Bodies\\body4\\body4.component.ts",
+  "PreviewInSolutionExplorer": false
+}

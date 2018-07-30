@@ -1,0 +1,14 @@
+
+<h1>
+  Current Themes
+</h1>
+<ul class="themes">
+  <li *ngFor="let theme of themes">
+    <span class="badge">{{theme.id}}</span> {{theme.name}}
+  </li>
+</ul>
+<ul class="bodies">
+  <li *ngFor="let body of bodies">
+    <span class="badge">{{body.BodyId}}</span> {{body.BodyName}}
+  </li>
+</ul>

@@ -1,9 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BodiesListRouterModule } from './bodies-list-router.module';
-import { HomeComponent } from './Pages/home/home.component';
-import { AboutComponent } from './Pages/about/about.component';
-import { ContactComponent } from './Pages/contact/contact.component';
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 

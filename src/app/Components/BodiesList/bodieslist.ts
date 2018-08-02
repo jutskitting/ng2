@@ -7,5 +7,6 @@ export const BODIES: Body[] = [
   { BodyId: 2, BodyName: 'Contact' },
   { BodyId: 3, BodyName: 'About-smartbox' },
   { BodyId: 4, BodyName: 'About-construction' },
-  { BodyId: 5, BodyName: 'Home-yachts' }
+  { BodyId: 5, BodyName: 'Home-yachts' },
+  { BodyId: 6, BodyName: 'Contact-yachts' }
 ];

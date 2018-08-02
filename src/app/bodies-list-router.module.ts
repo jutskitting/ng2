@@ -19,7 +19,7 @@ const BodiesListModuleRoutes: Routes = [
     children: [
 
       {
-        path: 'about/:id',
+        path: '',
         component: Body1Component,
       }
 
@@ -31,7 +31,7 @@ const BodiesListModuleRoutes: Routes = [
     children: [
 
       {
-        path: 'about/:id',
+        path: '',
         component: Body2Component,
       }
     ],
@@ -42,7 +42,7 @@ const BodiesListModuleRoutes: Routes = [
     children: [
 
       {
-        path: 'about/:id',
+        path: '',
         component: Body3Component,
       }
     ],
@@ -53,7 +53,7 @@ const BodiesListModuleRoutes: Routes = [
     children: [
 
       {
-        path: 'about/:id',
+        path: '',
         component: Body4Component,
       }
     ],
@@ -64,7 +64,7 @@ const BodiesListModuleRoutes: Routes = [
     children: [
 
       {
-        path: 'about/:id',
+        path: '',
         component: Body5Component,
       }
     ],

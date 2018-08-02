@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+
+
 import { Footer1Component } from './Themes/Footers/footer1/footer1.component';
 import { Footer3Component } from './Themes/Footers/footer3/footer3.component';
 import { Footer4Component } from './Themes/Footers/footer4/footer4.component';
@@ -18,6 +20,7 @@ import { Body2Component } from './Components/Bodies/body2/body2.component';
 import { Body3Component } from './Components/Bodies/body3/body3.component';
 import { Body4Component } from './Components/Bodies/body4/body4.component';
 import { Body5Component } from './Components/Bodies/body5/body5.component';
+import { Body6Component } from './Components/Bodies/body6/body6.component';
 
 @NgModule({
 
@@ -37,6 +40,7 @@ import { Body5Component } from './Components/Bodies/body5/body5.component';
     Body3Component,
     Body4Component,
     Body5Component,
+    Body6Component,
     Theme1Component,
     Theme2Component,
     Theme3Component,
@@ -58,6 +62,7 @@ import { Body5Component } from './Components/Bodies/body5/body5.component';
     Body3Component,
     Body4Component,
     Body5Component,
+    Body6Component,
     Theme1Component,
     Theme2Component,
     Theme3Component,

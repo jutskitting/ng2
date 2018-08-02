@@ -8,6 +8,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Body4Component } from '../../Components/Bodies/body4//body4.component';
 import { BodiesListService } from 'src/app/Components/bodieslist/bodieslistservice';
 import { Observable } from 'rxjs/internal/Observable';
+import { BodiesListRouterModule } from '../../bodies-list-router.module'
 
 
 @Component({
@@ -18,6 +19,8 @@ import { Observable } from 'rxjs/internal/Observable';
 @Directive({
   selector: '[body-host]',
 })
+
+//@ViewChild('BodiesListModule') {}
 
 export class AboutComponent implements OnInit {
 

@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Body } from '../Bodies/body';
-import { BodiesListModule } from '../../bodieslist.module';
+import { BodiesListRouterModule } from '../../bodies-list-router.module';
 
 @Injectable({
   providedIn: 'root',

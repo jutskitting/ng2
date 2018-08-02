@@ -6,6 +6,7 @@ import { Body1Component } from './Components/Bodies/body1/body1.component';
 import { Body2Component } from './Components/Bodies/body2/body2.component';
 import { Body3Component } from './Components/Bodies/body3/body3.component';
 import { Body4Component } from './Components/Bodies/body4/body4.component';
+import { Body5Component } from './Components/Bodies/body5/body5.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { Body4Component } from './Components/Bodies/body4/body4.component';
     Body1Component,
     Body2Component,
     Body3Component,
-    Body4Component
+    Body4Component,
+    Body5Component
   ],
   providers: [],
   entryComponents: [
@@ -26,7 +28,8 @@ import { Body4Component } from './Components/Bodies/body4/body4.component';
     Body1Component,
     Body2Component,
     Body3Component,
-    Body4Component
+    Body4Component,
+    Body5Component
   ]
 })
 export class BodiesListModule { }

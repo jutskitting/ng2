@@ -9,6 +9,7 @@ import { Theme1Component } from './Themes/theme1/theme1.component';
 import { Theme2Component } from './Themes/theme2/theme2.component';
 import { Theme3Component } from './Themes/theme3/theme3.component';
 import { Theme4Component } from './Themes/theme4/theme4.component';
+import { Theme5Component } from './Themes/theme5/theme5.component';
 
 const routes: Routes = [
   {
@@ -55,6 +56,17 @@ const routes: Routes = [
     }
   ],
   component: Theme4Component,
+  },
+  {
+  path: 'theme5',
+  children: [
+
+    {
+      path: 'about/:id',
+      component: AboutComponent,
+    }
+  ],
+  component: Theme5Component,
   },
   {
     path: '**',

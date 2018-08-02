@@ -5,18 +5,16 @@
     "\\src\\app",
     "\\src\\app\\Components",
     "\\src\\app\\Components\\Bodies",
-    "\\src\\app\\Components\\BodiesList",
-    "\\src\\app\\Components\\Bodies\\body1",
-    "\\src\\app\\Components\\Bodies\\body2",
-    "\\src\\app\\Components\\Bodies\\body3",
-    "\\src\\app\\Components\\Bodies\\body4",
-    "\\src\\app\\Pages",
-    "\\src\\app\\Pages\\contact",
     "\\src\\app\\Themes",
-    "\\src\\app\\ThemesList",
-    "\\src\\app\\Themes\\theme1",
-    "\\src\\app\\Themes\\theme2"
+    "\\src\\app\\Themes\\Footers",
+    "\\src\\app\\Themes\\Footers\\footer4",
+    "\\src\\app\\Themes\\Headers",
+    "\\src\\app\\Themes\\Headers\\header1",
+    "\\src\\app\\Themes\\Headers\\header4",
+    "\\src\\assets",
+    "\\src\\assets\\theme4assets",
+    "\\src\\assets\\theme4assets\\js"
   ],
-  "SelectedNode": "\\src\\app\\Components\\Bodies\\body4\\body4.component.ts",
+  "SelectedNode": "\\src\\app\\Themes\\Headers\\header1\\header1.component.html",
   "PreviewInSolutionExplorer": false
 }

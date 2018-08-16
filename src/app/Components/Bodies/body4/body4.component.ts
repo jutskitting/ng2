@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Body } from '../body';
-import { BodiesListService } from '../../BodiesList/bodieslistservice';
+import { BodiesListService } from '../../BodyList/bodieslistservice';
 
 @Component({
   selector: 'app-body4',

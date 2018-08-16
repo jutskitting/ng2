@@ -1,0 +1,56 @@
+#bottom {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(15, 44, 96);
+}
+
+#bottom2 {
+  position: relative;
+  bottom: 3%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/*.footer.footer.tranperent {
+  background-color: slategray !important;
+}
+.footer.footer.tranperent h3 {
+  color: white !important;
+}
+  .footer.footer.tranperent h5 {
+    color: white !important;
+  }
+  .footer.footer.tranperent ul.f-nav li a {
+    color: white !important;
+  }
+  .footer.footer.tranperent p {
+    color: white !important;
+  }
+
+.news-list span {
+  color: white !important;
+}
+
+
+button.newslatter {
+  background-color: darkslateblue;
+}
+.footer.footer.tranperent .form-control {
+  background-color: white;
+  color: black;
+}
+
+
+.footer-bottom{
+  background-color: black;
+}
+.footer-bottom span{
+    color: white;
+  }
+.fa{
+  color: white;
+}*/

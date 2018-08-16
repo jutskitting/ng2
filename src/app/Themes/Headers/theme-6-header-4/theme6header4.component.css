@@ -1,0 +1,65 @@
+.header-v4{
+  margin-bottom:70px;
+}
+
+
+.top_bar {
+  background-color: slategray;
+  color: white;
+}
+  .top_bar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+.navbar-nav > .active > a {
+  color: grey !important;
+  border-bottom: solid 2px darkslateblue;
+}
+
+
+
+-------------------------------
+
+
+
+.top_bar {
+  background-color: darkslateblue;
+}
+
+.navbar-nav > .active > a {
+  color: darkslateblue !important;
+  border-bottom: solid 2px darkslateblue;
+}
+
+.navbar-nav > li > a:hover, .dropdown-menu > li > a:focus {
+  background-image: none !important;
+  color: black;
+}
+
+.navbar-nav > li > a:hover, .dropdown-menu > li > a:focus {
+  /*background-color: red;*/
+  color: darkslateblue !important;
+  border-bottom: solid 2px darkslateblue;
+}
+
+/*~~~DROPDOWNS~~~*/
+
+/*.mega-dropdown-menu .mega-dropdown-inner .mega-menu-item > li > a {
+  background-color: red;
+  color: white !important;
+}
+
+.dropdown-menu > li > a {
+  background-color: red;
+  color: white !important;
+}
+
+ul.dropdown-cart li .item-left span.item-info span {
+  background-color: red;
+  color: white !important;
+}
+
+.mega-dropdown-inner .col-sm-3 {
+  background-color: red;
+}*/

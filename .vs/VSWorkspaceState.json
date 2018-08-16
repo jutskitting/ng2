@@ -3,18 +3,16 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\Components",
-    "\\src\\app\\Components\\Bodies",
     "\\src\\app\\Themes",
     "\\src\\app\\Themes\\Footers",
-    "\\src\\app\\Themes\\Footers\\footer4",
+    "\\src\\app\\Themes\\Footers\\theme-6-footer-4",
     "\\src\\app\\Themes\\Headers",
-    "\\src\\app\\Themes\\Headers\\header1",
-    "\\src\\app\\Themes\\Headers\\header4",
-    "\\src\\assets",
-    "\\src\\assets\\theme4assets",
-    "\\src\\assets\\theme4assets\\js"
+    "\\src\\app\\Themes\\Headers\\header-main",
+    "\\src\\app\\Themes\\Headers\\theme-6-header-1",
+    "\\src\\app\\Themes\\Headers\\theme-6-header-2",
+    "\\src\\app\\Themes\\Headers\\theme-6-header-3",
+    "\\src\\app\\Themes\\Headers\\theme-6-header-4"
   ],
-  "SelectedNode": "\\src\\app\\Themes\\Headers\\header1\\header1.component.html",
+  "SelectedNode": "\\src\\app\\Themes\\Headers\\theme-6-header-2\\theme6header2.component.html",
   "PreviewInSolutionExplorer": false
 }

@@ -6,11 +6,7 @@ import { Body } from '../body';
   styleUrls: ['./body2.component.css']
 })
 export class Body2Component implements OnInit {
-
- public body: Body = {
-    BodyId: 2,
-    BodyName: 'contact'
-  };
+  
 
   constructor() { }
 

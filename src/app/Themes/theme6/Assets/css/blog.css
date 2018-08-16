@@ -1,0 +1,319 @@
+/*google font css*/
+@import url('https://fonts.googleapis.com/css?family=Niconne|Raleway');
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/fonts/glyphicons-halflings-regular.eot');
+  src: url('/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+@font-face {
+    font-family: 'latoblack';
+    src: url('/fonts/lato-black-webfont.woff2') format('woff2'),
+         url('/fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'latobold';
+    src: url('/fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('/fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'latoitalic';
+    src: url('/fonts/lato-italic-webfont.woff2') format('woff2'),
+         url('/fonts/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'latoregular';
+    src: url('/fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('/fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+	font-family: 'Lato-Light';
+	src: url('/Lato-Light.eot') format('embedded-opentype'),
+  	url('/fonts/Lato-Light.woff') format('woff');
+  	font-weight: normal;
+  font-style: normal;
+  
+ }
+ @font-face {
+    font-family: 'LatoBoldItalic';
+    src: url('/fonts/LatoBoldItalic.eot');
+    src: url('/fonts/LatoBoldItalic.eot') format('embedded-opentype'),
+         url('/fonts/LatoBoldItalic.woff2') format('woff2'),
+         url('/fonts/LatoBoldItalic.woff') format('woff'),
+         url('/fonts/LatoBoldItalic.ttf') format('truetype'),
+         url('/fonts/LatoBoldItalic.svg#LatoBoldItalic') format('svg');
+}
+
+ @font-face {
+    font-family: 'LatoHairline';
+    src: url('/fonts/LatoHairline.eot');
+    src: url('/fonts/LatoHairline.eot') format('embedded-opentype'),
+         url('/fonts/LatoHairline.woff2') format('woff2'),
+         url('/fonts/LatoHairline.woff') format('woff'),
+         url('/fonts/LatoHairline.ttf') format('truetype'),
+         url('/fonts/LatoHairline.svg#LatoHairline') format('svg');
+}
+@font-face {
+    font-family: 'DancingScriptBold';
+    src: url('/fonts/DancingScriptBold.eot');
+    src: url('/fonts/DancingScriptBold.eot') format('embedded-opentype'),
+         url('/fonts/DancingScriptBold.woff2') format('woff2'),
+         url('/fonts/DancingScriptBold.woff') format('woff'),
+         url('/fonts/DancingScriptBold.ttf') format('truetype'),
+         url('/fonts/DancingScriptBold.svg#DancingScriptBold') format('svg');
+}
+
+
+/*end google font*/
+.no-padding{
+    padding: 0px !important;
+}
+p{
+    margin: 0px;
+    font-family: 'latoregular';
+}
+
+
+a{
+    color: #737577;
+    font-size: 13px;
+    transition: all 0.85s;
+}
+a:hover{
+    color: #662d91;
+    text-decoration: none;
+}
+
+.banner .breadcrumb, a {
+    background: none;
+    color: #fff;
+    font-size: 14px;
+}
+a:focus {
+  text-decoration: none;
+  outline: 0 !important; }
+
+.o-hidden {
+  overflow: hidden; }
+
+
+/*bsider page css*/
+.page-bread {
+    padding: 31px 0;
+    background: url(/images/about-banner.jpg) no-repeat;
+}
+.page-bread h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px;
+}
+.banner .breadcrumb, a:hover{
+    color: inherit;
+}
+.sidebar-widget {
+    margin-bottom: 40px;
+}
+.sidebar-widget h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #202020;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.search-widget {
+    position: relative;
+}
+.search-widget .form-control {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 45px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.search-widget .search-btn {
+    border: 0px;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    outline: none;
+    top: 10px;
+    padding: 0;
+    line-height: normal;
+    font-size: 20px;
+    color: #777;
+}
+.sidebar-widget .latest-post-list li {
+    line-height: 40px;
+    border-bottom: 1px solid #777;
+}
+.sidebar-widget .latest-post-list li a{
+    color: #363636;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.tags-list a, .base-button-light {
+    font-size: 13px!important;
+    margin: 0px 4px 4px 0px;
+    display: inline-block;
+    position: relative;
+    text-transform: capitalize;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #888;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 6px 10px;
+    width: auto;
+}
+.list-social li a {
+    padding: 3px 8px;
+    display: block;
+}
+.post {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+section.blog a{
+    color: #fff;
+    border: solid 2px #000;
+    background: #000;
+    font-size: 14px;
+}
+
+.list-social li a i {
+    font-size: 20px;
+    display: block;
+    color:#777777;
+    transition: all 0.3s ease-in;
+}
+
+.tags-list a{
+    background: #00a651;
+    color: #fff !important;
+}
+
+ul.pager a:hover{
+    background: #000;
+}
+/*blog-1 css*/
+.post-meta {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.post-meta a{
+    background: none !important;
+    border: none !important;
+    color: #636363 !important;
+}
+.post-meta img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 5px;
+    width: 70px;
+    height: auto;
+}
+.post-meta span {
+    display: block;
+    padding: 7px 0;
+    color: #23272b;
+    border-bottom: 2px solid #f5f5f5;
+}
+.post h3 a{
+    font-size: 24px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    color: #202020;
+    font-weight: 600;
+}
+
+.list-inline>li{
+    color: #777;
+}
+.comment-box img {
+    float: left;
+    width: 90px;
+    height: auto;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    margin-right: 20px;
+}
+.btn-lg {
+    padding: 10px 30px;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: none;
+}
+.btn-theme-bg {
+    background-color: #000;
+    color: #fff;
+}
+.btn-theme-bg:hover {
+    color: #fff;
+}
+.post-comment .form-group {
+    text-align: left;
+}
+
+.pagination-sec ul li a{
+   background-color: #fff;
+   border: 1px solid #ddd;
+   color: #000;
+}
+.pagination-sec ul li a:hover{
+    border-color:#000;
+}
+.post-comment label{
+    border: none;
+}
+.post-comment .form-control{
+    border: 1px solid #ccc;
+    margin-left: 0;
+    box-shadow: none;
+    border-radius: 0px;
+}
+ul.list-inline.list-social a {
+    background: transparent;
+    border: none;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    background: #000;
+    color: #fff;
+}
+blockquote{
+    color: #777;
+}
+
+section.blog h3 {
+    font-size: 24px;
+    color: #23272b;
+    font-weight: 600;
+}
+.comment-box{
+    padding: 15px 0px;
+}
+.post-comment form{
+    margin-top: 15px;
+}
+.post-content img{
+    padding-bottom: 15px;
+}
+.post a {
+    color: #337ab7;
+    font-size: 14px;
+    margin: 20px 0 10px;
+}
